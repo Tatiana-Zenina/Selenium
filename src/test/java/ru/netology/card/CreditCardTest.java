@@ -44,7 +44,7 @@ public class CreditCardTest {
     }
 
     @Test
-    void shouldTestSomething() {
+    void shouldTestCreditCard() {
         // throw new UnsupportedOperationException();
         driver.get("http://localhost:9999");
         driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Сорокина Елена");
